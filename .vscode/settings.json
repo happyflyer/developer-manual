@@ -1,0 +1,33 @@
+{
+  "cSpell.words": [
+    "ENTRYPOINT",
+    "Tsinghua",
+    "WORKDIR",
+    "autocrlf",
+    "autojump",
+    "backports",
+    "bioconda",
+    "bzip",
+    "conda",
+    "condarc",
+    "gitee",
+    "gitlab",
+    "libboost",
+    "libbz",
+    "libssl",
+    "menpo",
+    "msys",
+    "numpy",
+    "oneline",
+    "pybabel",
+    "pytest",
+    "pytorch",
+    "reflog",
+    "safecrlf",
+    "simpleitk",
+    "userdel",
+    "usermod",
+    "venv",
+    "zeroc"
+  ]
+}
