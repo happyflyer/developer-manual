@@ -14,7 +14,7 @@ flask run
 flask shell
 ```
 
-## 3. 查看路由规则
+## 3. 查看路由
 
 ```bash
 flask routes

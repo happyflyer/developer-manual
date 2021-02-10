@@ -1,4 +1,4 @@
-# apt
+# apt 使用
 
 ## 1. [清华源](https://mirrors.tuna.tsinghua.edu.cn/help/ubuntu/)
 
@@ -31,6 +31,8 @@ sudo apt-get clean && apt-get update
 ```
 
 ## 2. 代理
+
+- 临时
 
 ```bash
 sudo apt-get install package_name -o Acquire::http::proxy="http://代理服务器IP:端口"

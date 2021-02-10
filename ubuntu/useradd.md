@@ -1,4 +1,4 @@
-# 用户
+# 用户管理
 
 ## 1. 创建用户
 
@@ -23,6 +23,9 @@ sudo passwd tt
 ## 2. 删除用户
 
 ```bash
-sudo userdel tt
+sudo userdel -r tt
+```
+
+```bash
 sudo userdel -r tt
 ```

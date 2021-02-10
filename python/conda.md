@@ -18,6 +18,8 @@ conda env list
 
 ### 1.2. 切换
 
+- Linux or MacOS
+
 ```bash
 conda activate my_venv
 ```
@@ -25,6 +27,8 @@ conda activate my_venv
 ```bash
 conda deactivate my_venv
 ```
+
+- Windows
 
 ```powershell
 activate my_venv
@@ -57,7 +61,7 @@ conda list
 conda install package_name
 ```
 
-## 3. 清华源
+## 3. [清华源](https://mirrors.tuna.tsinghua.edu.cn/help/anaconda/)
 
 ```bash
 vim ~/.condarc
@@ -86,12 +90,24 @@ custom_channels:
 conda clean -i
 ```
 
-[anaconda | 镜像站使用帮助 | 清华大学开源软件镜像站 | Tsinghua Open Source Mirror](https://mirrors.tuna.tsinghua.edu.cn/help/anaconda/)
-
 ## 4. 代理
+
+```bash
+vim ~/.condarc
+```
 
 ```yaml
 proxy_servers:
   http: http://代理服务器IP:端口
-  https: http://代理服务器IP:端口
+  https: https://代理服务器IP:端口
+```
+
+## 5. Windows 环境变量
+
+```properties
+C:\ProgramData\Anaconda3;
+C:\ProgramData\Anaconda3\Library\mingw-w64\bin;
+C:\ProgramData\Anaconda3\Library\usr\bin;
+C:\ProgramData\Anaconda3\Library\bin;
+C:\ProgramData\Anaconda3\Scripts;
 ```

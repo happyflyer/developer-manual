@@ -6,7 +6,7 @@
 sudo apt-get install zsh
 ```
 
-## 2. ob my zsh
+## 2. oh my zsh
 
 ```bash
 # sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
@@ -38,6 +38,9 @@ plugins=(
     git
     zsh-autosuggestions
 )
+```
+
+```properties
 . /usr/share/autojump/autojump.sh
 source $ZSH_CUSTOM/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source $ZSH_CUSTOM/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
