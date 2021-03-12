@@ -1,6 +1,9 @@
-# 开发者日常速查手册
+# 开发者日常手册
 
-## 1. python
+- [Git 使用](git.md)
+- [VSCode 使用](vscode.md)
+
+## 1. Python
 
 - [conda 使用](python/conda.md)
 - [pip 使用](python/pip.md)
@@ -10,21 +13,18 @@
 - [Flask Mail](python/flask-mail.md)
 - [Flask Migrate](python/flask-migrate.md)
 
-## 2. sql
+## 2. SQL
 
 - [MySQL 使用](sql/mysql.md)
 
-## 3. ubuntu
+## 3. Ubuntu
 
-- [apt](ubuntu/apt.md)
-- [tmux](ubuntu/tmux.md)
-- [oh my zsh](ubuntu/oh-my-zsh.md)
+- [apt 使用](ubuntu/apt.md)
+- [用户管理](ubuntu/useradd.md)
+- [tmux 使用](ubuntu/tmux.md)
+- [oh my zsh 使用](ubuntu/oh-my-zsh.md)
+
+## 4. Docker
+
 - [docker](ubuntu/docker.md)
 - [Dockerfile](ubuntu/docker-dockerfile.md)
-- [useradd](ubuntu/useradd.md)
-
-## 4. vcs
-
-- [git](vcs/git.md)
-- [git remote](vcs/git-remote.md)
-- [vscode](vcs/vscode.md)
