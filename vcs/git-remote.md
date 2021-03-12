@@ -55,6 +55,10 @@ git push origin --all
 ```
 
 ```bash
+git push origin --delete dev
+```
+
+```bash
 git push origin --tags
 ```
 
